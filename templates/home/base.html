@@ -1,0 +1,32 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Pagina Principal</title>
+    <link rel="stylesheet" type="text/css" href="{% static '/home/bootstrap-4.3.1-dist/css/bootstrap.css' %}"/>
+</head>
+<body>
+    {% include "home/header.html" %}
+
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Album example</h1>
+            <p class="lead text-muted">Pagina Powermoves Philosophy.</p>
+            <p>
+                <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+            </p>
+            <hr>
+            {%  block main_content %}
+            {%  endblock %}
+
+        </div>
+    </section>
+
+    {% include "home/footer.html" %}
+</body>
+</html>

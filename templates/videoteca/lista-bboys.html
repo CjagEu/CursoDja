@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista de Bboys</title>
+    </head>
+    <body>
+        <h1>Bboys Registrados</h1>
+        <table border="1">
+            <thead>
+                <th>Bboy</th>
+                <th>Pais</th>
+                <th>Visitar</th>
+            </thead>
+            <tbody>
+                {% for l in listabboys %}
+                    <tr>
+                        <td>{{ l.name }}</td>
+                        <td>{{ l.nacionalidad }}</td>
+                        <td><a href="{% url 'videoteca_app:lista-movimientos' l.id %}">Ver Moves</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+</html>

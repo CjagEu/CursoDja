@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de moves </title>
+</head>
+<body>
+    <h1>LISTA DE MOVES NUEVA DE VIDEOTECA</h1>
+        <table border="1">
+            <thead>
+                <th>ID</th>
+                <th>Movimiento</th>
+                <th>BBoy</th>
+            </thead>
+            <tbody>
+                {% for m in listamovimientos %}
+                    <tr>
+                        <td>{{ m.id }}</td>
+                        <td>{{ m.name }}</td>
+                        <td>{% for f in m.bboy.all %}
+                            {{ f.name }}
+                            {% endfor %}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+</body>
+</html>
