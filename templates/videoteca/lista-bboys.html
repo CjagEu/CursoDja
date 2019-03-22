@@ -5,9 +5,10 @@
         <title>Lista de Bboys</title>
     </head>
     <body>
-        <h1>Bboys Registrados</h1>
+        <h1>Bboys registrados en el sistema</h1>
         <table border="1">
             <thead>
+                <th>ID</th>
                 <th>Bboy</th>
                 <th>Pais</th>
                 <th>Visitar</th>
@@ -15,6 +16,7 @@
             <tbody>
                 {% for l in listabboys %}
                     <tr>
+                        <td>{{ l.id }}</td>
                         <td>{{ l.name }}</td>
                         <td>{{ l.nacionalidad }}</td>
                         <td><a href="{% url 'videoteca_app:lista-movimientos' l.id %}">Ver Moves</a></td>

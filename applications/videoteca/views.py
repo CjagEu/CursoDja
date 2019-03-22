@@ -44,3 +44,10 @@ class ListaMovimientos(ListView):
         lista = Powermove.objects.all()
         return lista
 
+class ListaPowermoves(ListView):
+    template_name = "videoteca/lista-powermoves.html"
+    context_object_name = "listapowermoves"
+
+    def get_queryset(self):
+        lista = Powermove.objects.all()
+        return lista

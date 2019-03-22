@@ -15,10 +15,10 @@
     <section class="jumbotron text-center">
         <div class="container">
             <h1 class="jumbotron-heading">Album example</h1>
-            <p class="lead text-muted">Pagina Powermoves Philosophy.</p>
+            <p class="lead text-muted">Powermoves Philosophy.</p>
             <p>
-                <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+                <a href="{% url 'videoteca_app:lista-bboys' %}" class="btn btn-primary my-2">Lista de bboys</a>
+                <a href="{% url 'videoteca_app:lista-powermoves' %}" class="btn btn-secondary my-2">Lista de powermoves</a>
             </p>
             <hr>
             {%  block main_content %}

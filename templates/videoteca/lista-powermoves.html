@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista Powermoves</title>
+</head>
+<body>
+    <h1>Powermoves registrados en el sistema</h1>
+    <table border="1">
+        <thead>
+        <th>ID</th>
+        <th>Movimiento</th>
+        </thead>
+        <tbody>
+        {% for m in listapowermoves %}
+            <tr>
+                <td>{{ m.id }}</td>
+                <td>{{ m.name }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

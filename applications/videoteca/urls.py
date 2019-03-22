@@ -9,6 +9,6 @@ urlpatterns = [
     path('movimientos-bboy/<pk>/por-bboy/', views.ListaPowerBboys.as_view(), name="lista-movimientos"),
     path('bboy/add/', views.AddBboy.as_view(), name="bboy-add"),
     path('', views.ListaMovimientos.as_view(),name="lista"),
-
+    path('powermoves/', views.ListaPowermoves.as_view(), name="lista-powermoves"),
 
 ]
