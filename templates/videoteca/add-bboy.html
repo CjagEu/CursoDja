@@ -1,14 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+{%  load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static '/home/bootstrap-4.3.1-dist/css/bootstrap.css' %}"/>
+
+
 <head>
-    <meta charset="UTF-8">
     <title>Agregar Bboy</title>
 </head>
-<body>
+<body class="text-center">
     <h1>Añadir Bboy</h1>
     <form method="post">{% csrf_token %}
         {{ form.as_p }}
-        <button type="submit" name="button">Guardar</button>
+        <button type="submit" class="btn btn-success" name="button">Guardar</button>
     </form>
+    <p class="mt-5 mb-3 text-muted">&copy; Powermoves Philosophy</p>
 </body>
 </html>

@@ -1,28 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static '/home/bootstrap-4.3.1-dist/css/bootstrap.css' %}"/>
+
     <head>
-        <meta charset="UTF-8">
         <title>Lista de Bboys</title>
     </head>
     <body>
-        <h1>Bboys registrados en el sistema</h1>
-        <table border="1">
-            <thead>
-                <th>ID</th>
-                <th>Bboy</th>
-                <th>Pais</th>
-                <th>Visitar</th>
-            </thead>
-            <tbody>
-                {% for l in listabboys %}
-                    <tr>
-                        <td>{{ l.id }}</td>
-                        <td>{{ l.name }}</td>
-                        <td>{{ l.nacionalidad }}</td>
-                        <td><a href="{% url 'videoteca_app:lista-movimientos' l.id %}">Ver Moves</a></td>
-                    </tr>
-                {% endfor %}
-            </tbody>
+
+
+        <h1> Bboys registrados en el sistema</h1>
+
+
+        <div class="table-responsive">
+        <table class="table table-hover table-bordered">
+        <thead class="thead-dark">
+            <th scope="col">#</th>
+                <th scope="col">Bboy</th>
+                <th scope="col">Pais</th>
+                <th scope="col">Visitar</th>
+        </thead>
+        <tbody>
+            {% for l in listabboys %}
+                <tr>
+                    <td>{{ l.id }}</td>
+                    <td>{{ l.name }}</td>
+                    <td>{{ l.nacionalidad }}</td>
+                    <td><a href="{% url 'videoteca_app:lista-movimientos' l.id %}">Ver Moves</a></td>
+                </tr>
+            {% endfor %}
+        </tbody>
         </table>
+        </div>
     </body>
-</html>

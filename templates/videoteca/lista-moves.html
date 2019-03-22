@@ -1,29 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Lista movimientos por </title>
-</head>
-<body>
-    <h1>Lista Movimientos Bboy</h1>
-    <table border="1">
-        <thead>
-        <th>ID</th>
-        <th>Movimiento</th>
-        <th>BBoy</th>
-        </thead>
-        <tbody>
+{%  load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static '/home/bootstrap-4.3.1-dist/css/bootstrap.css' %}"/>
+
+<title>Lista movimientos por bboy</title>
+<h1>Lista de movimientos por Bboy</h1>
+<table class="table">
+    <thead>
+        <th scope="col">#</th>
+        <th scope="col">Movimento</th>
+        <th scope="col">Bboy</th>
+    </thead>
+    <tbody>
         {% for m in movimientos %}
             <tr>
                 <td>{{ m.id }}</td>
                 <td>{{ m.name }}</td>
                 <td>{% for f in m.bboy.all %}
-                {{ f.name }}
-                {% endfor %}</td>
-
+                    {{ f.name }}
+                    {% endfor %}
+                </td>
             </tr>
         {% endfor %}
-        </tbody>
-    </table>
-</body>
-</html>
+    </tbody>
+</table>
