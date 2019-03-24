@@ -32,7 +32,7 @@ class AddBboy(CreateView):
     template_name = 'videoteca/add-bboy.html'
     model = Bboy
     fields = ['name', 'nacionalidad']
-    success_url = '/'
+    success_url = '/bboys/'
 
 
 class ListaMovimientos(ListView):

@@ -3,19 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="58d9ad41-26a9-4545-8db9-fca0afbdeb2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applications/home/static/home/bootstrap-4.3.1-dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/applications/home/static/home/bootstrap-4.3.1-dist/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applications/home/static/home/images/lilg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/applications/home/static/home/images/lilg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applications/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/videoteca/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/applications/videoteca/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/lista.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/videoteca/add-bboy.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/videoteca/add-bboy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/videoteca/lista-bboys.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/videoteca/lista-bboys.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/videoteca/lista-moves.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/videoteca/lista-moves.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/videoteca/lista-powermoves.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/videoteca/lista-powermoves.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +54,35 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/home/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/videoteca/lista-bboys.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="81" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/videoteca/lista-moves.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,18 +114,18 @@
         <option value="$PROJECT_DIR$/templates/home/lista.html" />
         <option value="$PROJECT_DIR$/templates/videoteca/lista-moves-basica.html" />
         <option value="$PROJECT_DIR$/applications/videoteca/urls.py" />
-        <option value="$PROJECT_DIR$/applications/videoteca/views.py" />
         <option value="$PROJECT_DIR$/applications/home/static/home/bootstrap-4.3.1-dist/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/templates/home/header.html" />
         <option value="$PROJECT_DIR$/applications/home/urls.py" />
         <option value="$PROJECT_DIR$/applications/home/views.py" />
-        <option value="$PROJECT_DIR$/templates/videoteca/lista-moves.html" />
         <option value="$PROJECT_DIR$/templates/videoteca/lista.html" />
         <option value="$PROJECT_DIR$/templates/videoteca/lista-bboys.html" />
         <option value="$PROJECT_DIR$/templates/videoteca/add-bboy.html" />
         <option value="$PROJECT_DIR$/templates/home/base.html" />
         <option value="$PROJECT_DIR$/templates/videoteca/lista-powermoves.html" />
         <option value="$PROJECT_DIR$/templates/home/footer.html" />
+        <option value="$PROJECT_DIR$/applications/videoteca/views.py" />
+        <option value="$PROJECT_DIR$/templates/videoteca/lista-moves.html" />
         <option value="$PROJECT_DIR$/templates/home/index.html" />
       </list>
     </option>
@@ -122,7 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,7 +156,31 @@
               <item name="CursoDja" type="b2602c69:ProjectViewProjectNode" />
               <item name="CursoDja" type="462c0819:PsiDirectoryNode" />
               <item name="applications" type="462c0819:PsiDirectoryNode" />
-              <item name="videoteca" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CursoDja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CursoDja" type="462c0819:PsiDirectoryNode" />
+              <item name="applications" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CursoDja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CursoDja" type="462c0819:PsiDirectoryNode" />
+              <item name="applications" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CursoDja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CursoDja" type="462c0819:PsiDirectoryNode" />
+              <item name="applications" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CursoDja" type="b2602c69:ProjectViewProjectNode" />
@@ -162,6 +203,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,11 +279,14 @@
       <workItem from="1553262517168" duration="833000" />
       <workItem from="1553264443556" duration="5737000" />
       <workItem from="1553287425727" duration="3490000" />
+      <workItem from="1553440888509" duration="395000" />
+      <workItem from="1553443378267" duration="745000" />
+      <workItem from="1553444153227" duration="198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39542000" />
+    <option name="totallyTimeSpent" value="40880000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -254,8 +299,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18923241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -374,7 +420,6 @@
     <entry file="file://$PROJECT_DIR$/bboyweb/urls.py" />
     <entry file="file://$PROJECT_DIR$/applications/home/static/home/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" />
     <entry file="file://$PROJECT_DIR$/applications/videoteca/admin.py" />
-    <entry file="file://$PROJECT_DIR$/applications/videoteca/views.py" />
     <entry file="file://$PROJECT_DIR$/applications/home/static/home/bootstrap-4.3.1-dist/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -398,34 +443,11 @@
     <entry file="file://$PROJECT_DIR$/applications/home/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/lista.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/home/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/videoteca/lista-moves.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/lista.html" />
     <entry file="file://$PROJECT_DIR$/applications/home/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/videoteca/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="61" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -443,23 +465,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <element signature="e#290#309#0#HTML" expanded="true" />
-            <element signature="e#380#398#0#HTML" expanded="true" />
-            <element signature="e#647#666#0#HTML" expanded="true" />
-            <element signature="e#756#774#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/home/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/videoteca/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/videoteca/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -470,10 +500,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/videoteca/lista-bboys.html">
+    <entry file="file://$PROJECT_DIR$/templates/videoteca/lista-moves.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="289">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -481,6 +511,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/videoteca/lista-bboys.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="81" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
