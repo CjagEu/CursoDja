@@ -6,6 +6,7 @@ from django.views.generic import (
     TemplateView,
     ListView,
     CreateView,
+    DetailView,
 
 
 )

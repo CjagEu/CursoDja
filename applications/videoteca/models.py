@@ -8,6 +8,7 @@ class Bboy(models.Model):
     def __str__(self):
         return self.name
 
+
 class Powermove(models.Model):
     name = models.CharField('Movimiento', max_length=80)
     resume = models.TextField('Resumen',blank=True)
@@ -15,3 +16,5 @@ class Powermove(models.Model):
 
     def __str__(self):
         return self.name
+
+

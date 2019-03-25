@@ -1,8 +1,9 @@
+
 {%  load staticfiles %}
 <link rel="stylesheet" type="text/css" href="{% static '/home/bootstrap-4.3.1-dist/css/bootstrap.css' %}"/>
 
 <title>Lista movimientos por bboy</title>
-<h1>Lista de movimientos por Bboy</h1>
+<h1>Lista de movimientos por {{ movimientos.name }}</h1>
 <table class="table">
     <thead>
         <th scope="col">#</th>
@@ -14,11 +15,42 @@
             <tr>
                 <td>{{ m.id }}</td>
                 <td>{{ m.name }}</td>
-                    <td>{% for f in m.bboy.all %}
+                <td>{% for f in m.bboy.all %}
                     {{ f.name }}
                     {% endfor %}
                 </td>
             </tr>
         {% endfor %}
     </tbody>
+
 </table>
+
+
+
+
+
+<!--
+
+{%  load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static '/home/bootstrap-4.3.1-dist/css/bootstrap.css' %}"/>
+
+<title>Lista movimientos por bboy</title>
+<h1>Lista de movimientos por Bboy</h1>
+
+
+<table class="table">
+    <thead>
+        <th scope="col">#</th>
+        <th scope="col">Movimento</th>
+    </thead>
+    <tbody>
+        {% for m in movimientos %}
+            <tr>
+                <td>{{ m.id }}</td>
+                <td>{{ m.name }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+-->
